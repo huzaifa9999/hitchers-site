@@ -1,0 +1,36 @@
+.img{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+
+.img::before{
+background: url('../assests/icemount.jpg') ;
+background-repeat: no-repeat;
+background-position: center;
+content: '';
+height: 100%;
+width: 100%;
+z-index: -1;
+position: absolute;
+left: 0;
+top: 0;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.text h1{
+   font-size: 3.6rem;
+} 
+
+.text h2{
+    font-size: 2rem;
+    color: white;
+}

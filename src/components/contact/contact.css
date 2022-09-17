@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    margin: auto;
+    max-width: 550px;
+
+}
+form label{ margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+label{
+    color: white;
+}
+form textArea, input{
+    background: rgba(0, 0, 0, 0.1);
+    padding: .5rem;
+    border: 1px soild #000f00 ;
+color:white;
+}
+
+.sub{
+    line-height:2;
+  margin-top: 2rem;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: .5rem 5rem;
+    color: white;
+    cursor: pointer;
+}
